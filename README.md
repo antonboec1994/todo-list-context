@@ -18,7 +18,7 @@
 ## Как запустить локально
 
 1. Необходимо клонировать репозиторий:
-   git clone https://github.com/antonboec1994/TodoList.git
+   git clone https://github.com/antonboec1994/todo-list-context.git
 
 2. Для установки зависимостей:
    npm install
