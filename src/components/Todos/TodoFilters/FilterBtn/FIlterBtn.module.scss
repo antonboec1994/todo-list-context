@@ -1,0 +1,8 @@
+.btn {
+	& + & {
+		margin-left: var(--margin-sm);
+	}
+}
+.active {
+	background-color: var(--color-red);
+}

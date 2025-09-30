@@ -1,0 +1,24 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.input {
+	outline: transparent;
+	padding: var(--padding-sm);
+	width: 100%;
+	max-width: 300px;
+	border: var(--border-sm);
+	border-radius: var(--border-radius-sm);
+	font-size: var(--font-size-main);
+}
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: var(--margin-md);
+	width: 100%;
+	max-width: 300px;
+	transition: all 0.3s;
+}

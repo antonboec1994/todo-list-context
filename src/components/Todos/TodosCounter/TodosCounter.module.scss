@@ -1,0 +1,14 @@
+.wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text {
+	border-bottom: var(--border-sm);
+}
+.count {
+	font-size: var(--font-size-lg);
+	margin-left: var(--margin-sm);
+	font-weight: 600;
+}

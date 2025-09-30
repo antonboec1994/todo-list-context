@@ -1,0 +1,25 @@
+.wrapper {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-top: 105px;
+}
+.head {
+	background-color: var(--color-blackMain);
+	position: fixed;
+	width: 100%;
+	max-width: 800px;
+	height: 115px;
+	padding: var(--padding-sm);
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 99;
+	top: calc(20vh);
+}
+.title {
+	font-size: var(--font-size-h2);
+}
+.list {
+	margin-top: var(--margin-md);
+}

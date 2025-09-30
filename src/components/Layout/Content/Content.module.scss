@@ -1,0 +1,7 @@
+.content {
+	padding: var(--padding-md);
+	height: calc(100vh - 30vh);
+	overflow-y: auto;
+	border-bottom: var(--border-md);
+	position: relative;
+}

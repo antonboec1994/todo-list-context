@@ -1,0 +1,61 @@
+.todoItem {
+	border: var(--border-sm);
+	padding: var(--padding-md);
+	& + & {
+		margin-top: var(--margin-sm);
+	}
+}
+.ready {
+	background-color: rgba(25, 105, 65, 0.1);
+}
+.label {
+	text-align: left;
+	font-size: 10px;
+	color: var(--color-grey);
+}
+.name {
+	text-align: left;
+	font-size: 16px;
+	color: var(--color-whiteMain);
+	margin-top: var(--margin-sm);
+}
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: var(--margin-md);
+}
+.editBtn,
+.deleteBtn {
+	cursor: pointer;
+	transition: all 0.3s;
+	font-size: 24px;
+	margin-left: var(--margin-md);
+	&:hover {
+		opacity: 0.7;
+	}
+}
+.deleteBtn {
+	color: rgb(203, 68, 68);
+}
+.checkbox {
+	color: var(--color-orange);
+}
+.taskReady {
+	color: var(--color-green);
+}
+.saveBtn,
+.editBtn {
+	margin-left: auto;
+	color: rgb(172, 105, 10);
+	font-size: var(--font-size-16);
+}
+.textarea {
+	width: 100% !important;
+	max-width: 100%;
+	height: 70px !important;
+	resize: none;
+	padding: var(--padding-sm);
+	font-size: var(--font-size-16);
+	outline: transparent;
+}
